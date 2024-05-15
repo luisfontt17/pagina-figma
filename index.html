@@ -2,72 +2,207 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>payna</title>
+    <!--=============== REMIXICONS ===============-->
+    <link  href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--=============== SWIPER CSS ===============-->
+ <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+<!--=============== CSS ===============-->
+ <link rel="stylesheet" href="assets/css/style.css">
+    <title>intento de Figma</title>
 </head>
-<!-- this iproject is a llanding page to payna: a startup who help the businnes
-to manage payrroll's without knowledge or any kind of financial education, naking the process
-more simple to the HHRR department in companies-->
+
 <body>
-    <header>
-<nav>
-  
-  <div class="logo">  <img src="" alt=""> </div>
+    <header class="header" id="header"> 
+        <nav class="nav container"> 
+            <a href="#" class="nav_logo">sitio web de viajes</a>
+           
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">home</a>
 
-<div class="menu">
-    <!--the label "a" is used to link a hyperlink to direct to other pages-->
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link active-link">about</a>
 
-    <a href="#">home</a>
-<a href="#">features</a>
-<a href="#">showcase</a>
-<a href="#">pricing</a>
-</div>
-<!--this botton is for sing in to the system-->
+                    </li>
+                    <li class="nav_item">
+                        <a href="#discover" class="nav_link active-link">discover</a>
+
+                    </li>
+                    <li class="nav_item">
+                        <a href="#places" class="nav_link active-link">places</a>
+                      </li>
+                      <!--theme change button-->
+                </ul>
+                <div class="nav_dark">
+                    <span class="change.theme-name">dark mode</span>
+<i class="ri-moon-line change-theme" id="theme-button"></i>
+ </div>
+ <i class="ri-function-line"></i>
 
 
-<div class="botton">
-    <a href="#" class="botton" >Sing in</a>
-</div>
+            </div>
 
-</nav>
+        </nav>
+
     </header>
 
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+ <img src="assets/img/home 1.jpeg" alt="" class="home_img">
 
-    <div class="portada">
+<div class="home_container  grid">
+<span class="home_data-subtitle">discover your place</span>
+<h1 class="home:_data-title">explore the <br>best <br>beaches <br></h1>
+<a href="#" class="button">explore</a>
+</div>
+ <div class="home_social">
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="home_social-link">
+                    <i class="ri-facebook-box-fill"></i>
+                </a> 
+                <a href="https://twitter.com/?lang=es" target="_blank" class="home_social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="home_social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+            </div>
 
-        <div class="text">
-            <h1>
-                Manage payroll like an Expert
-            </h1>
+            <div class="home_info">
+                <div>
+                    <span class="home_info_tittle">5 best places to visit</span>
+                    </div>
+                    <div class="home_info-overlay">
+                        <img src="assets/img/home 2.jpeg" alt="home_info-img">
 
-            <p>
-                Payna is helping you to setting up the payroll without
-required any finance skills or knowledge before
-         
-</p>
-<div class="img">
+                    </div>
 
-<img src="img/Group 4.png" alt="lady">
-<img src="img/" alt="bulk">
-<img src="" alt="analytics">
+            </div>
+
+        </section>
+
+    
 
 
+
+<!--=============== about ===============-->
+            <section class="about_section" id="about">
+                <div class="about_container container_grid" >
+                    <div class="about_data">
+<h2 class="section_tittle about_tittle">More Information <br>About the best beach</h2>
+                    <p class="about_description">You can find the most beautiful and pleasant places at the best prices with special discounts, you choose the place we will guide you all the way to wait, get your place now</p>
+                    <a href="#" class="button">reserve a place</a>
+
+                    <div class="about_img">
+<div class="about_img-overlay">
+    <img src="assets/img/WhatsApp Image 2024-04-13 at 3.55.57 PM.jpeg" alt="" class="about_img_one">
+</div>
+<div class="about_img">
+    <div class="about_img-overlay">
+        <img src="" alt="" class="about_img_two">
+    </div>     
+    </div>
+                </div>
+             </div>
+
+            </section>
+
+<!--=============== DISCOVER ===============-->
+            <section class="discover_section" id="discover">
+<h2 class="section_tittle">discover the most <br>atractive places</h2>
+    
+<div class="discover_container swipper">
+    <div class="swipper-wrapper">
+        <!--=============== DISCOVER 1 ===============-->
+    <div class="discover_card swipper-slide">
+        <img src="assets/img/discover 1.jpeg" alt="" class="discover_img">
+<div class="discover_data">
+    <h2 class="tittle_discover">bali</h2>
+    <span class="discover_description">24 hours tours available</span>
 
 </div>
-<div class="botton">
-    <!--this bottom is to get the system-->
-    <a href="#" class="botton" >Get Started</a>
-</div>
+    </div>
 
-<div class="companies">
-    <p>trusted by global companies</p>
-<div class="company" > <img src="group 14.png" alt="companies"> </div>
+     <!--=============== DISCOVER 2 ===============-->
+     <div class="discover_card swipper-slide">
+        <img src="assets/img/WhatsApp Image 2024-04-13 at 3.56.03 PM.jpeg" alt="" class="discover_img">
+<div class="discover_data">
+    <h2 class="tittle_discover">hawai</h2>
+    <span class="discover_description">24 hours tours available</span>
+
 </div>
+    </div>
+
+     <!--=============== DISCOVER 3 ===============-->
+     <div class="discover_card swipper-slide">
+        <img src="assets/img/WhatsApp Image 2024-04-13 at 3.56.04 PM.jpeg" alt="" class="discover_img">
+<div class="discover_data">
+    <h2 class="tittle_discover">whiteheaven</h2>
+    <span class="discover_description">24 hours tours available</span>
+
+</div>
+    </div>
+
+     <!--=============== DISCOVER 4 ===============-->
+     <div class="discover_card swipper-slide">
+        <img src="assets/img/WhatsApp Image 2024-04-13 at 3.56.05 PM.jpeg" alt="" class="discover_img">
+<div class="discover_data">
+    <h2 class="tittle_discover">greece</h2>
+    <span class="discover_description">24 hours tours available</span>
+
+</div>
+    </div>
+    </div>
+
+</div>
+</section>
+ 
+<!--=============== EXPERIENCE ===============-->
+<section class="experience_section">
+ <h2 class="section_tittle">with our experience  <br>we will serve you</h2>
+
+ <div class="experience_container container_grid">
+    <div class="experience_container grid">
+        <div class="experience_data">
+            <h2 class="experience_number">20</h2>
+            <span class="experience_description">complete <br>tours</span>
         </div>
-    
-    
+    </div>
+ </div>
+
+</section>
+
+<section class="">
+
+</section>
+
+<!--=============== VIDEO ===============-->
+<section class="video_section">
+    <h2 class="section_tittle">video tour</h2>
+<div class="video_container">
+
+    <p class="video_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo maiores incidunt in maxime velit quaerat nam praesentium architecto. Provident, architecto. Mollitia, consectetur eius a adipisci earum quos autem odit! Aspernatur.</p>
+
+<div class="video_content">
+    <video id="video_file" src="assets/video/WhatsApp Video 2024-04-30 at 3.50.37 PM.mp4" type="video/mp4">
+
+    </video>
+
+<button class="button_video" id="video-button">
+    <i class="play_video" id="video-icon">
+
+    </i>
+
+</button>
+
 </div>
+</div>
+</section>
     
+
+    </main>
 </body>
 </html>

@@ -1,4 +1,8 @@
-tipo de fuente: poppins bold 55px
-titulos tienen de fuente poppins en bold en 36px
-subtitulos: las mismas caracteristicas pero en 16px
-texto de parrafo: poppins regular 16px
+UL:SE UTILIZA PARA CREAR UNA LISTA NO ORDENADA.
+LI: PARA CREAR CADA ELEMENTO O CADENA DE ELEMENTOS EN LA LISTA.
+los puntos hacen referencia al cero en css
+el hsl es para luminusidad saturacion y matiz del  color
+         
+         gap en css: es una taquigrafia (tecnica para definir espacio entre filas y columnas, define las dimensiones de las cuadriculas)
+object-fit: es una propiedad para imagenes y videos que indican como deben condicionarse para ajustarse a su contenedor
+object-position: es para alineacion dentro del cuadro
